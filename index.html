@@ -1,0 +1,177 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="exercicemaison.css">
+    <title>Document</title>
+</head>
+<body>
+    <form action="serveur" method="POST">
+        <h1 style="text-align: center;"> Online Mortgage Application Form </h1>
+        <hr>
+
+
+        <div class="box">
+            <div class="gauche">
+                <label class="police" for="prenom">First Name</label> <br>
+                <input type="text" name="prenom" id="prenom" placeholder="First Name" required  class="dialogue"> 
+
+            </div>
+
+            <div class="droite">
+
+                <label class="police" for="nom">Name</label> <br>
+
+                <input type="text" name="nom" id="nom" placeholder="Name" required  class="dialogue"> 
+
+
+            </div>
+        </div>
+
+
+
+        <div class="box">
+            <div class="gauche">
+                <label class="police" for="phone">Phone Number</label> <br>
+                <input type="tel" name="phone" id="phone" placeholder="0032 000 000 000 " required  class="dialogue"> 
+
+            </div>
+
+            <div class="droite">
+
+                <label class="police" for="email">Email</label> <br>
+
+                <input type="email" name="email" id="email" placeholder="exemple@exemple.com" required  class="dialogue"> 
+
+
+            </div>
+         
+        </div>
+
+
+        <div class="ad">
+            <label class="police" for="">Address</label> 
+            <textarea name="Adress" id="address" cols="30" rows="10" class="adresse"></textarea>
+
+
+
+
+
+
+        </div>
+
+        <div class="ad">
+
+            <label class="police" for="date">Date of Birth</label> <br>
+            <input type="date" name="date" id="date" required class="dialogue">
+
+        </div>
+
+        <div class="ad">
+
+            <label class="police" for="statut">Marital Status</label>
+            <select class="dialogue" name="statut" id="statut">
+                <option value="" selected>Choissez votre statut</option>
+                <option value="celibataire">Célibataire</option>
+                <option value="veuf">Veuf</option>
+                <option value="marie">Marié</option>
+                <option value="divorce">Divorcé</option>
+            </select>
+
+
+        </div>
+
+        <div class="ad">
+            <label for="occupant" class="police">Do you have a co-occupant?</label> <br>
+            <div class="box">
+            <div class="gauche">
+                
+                <input type="radio" name="occupant" id="y">
+                <label class="inline" for="occupant">Yes</label>
+            </div>
+            <div class="droite">
+
+             <input type="radio" name="occupant" id="n">
+             <label class="inline" for="occupant">No</label>
+            </div>
+
+        </div>
+
+
+        </div>
+
+        <div class="ad">
+
+            <label class="police" for="statut">Your Current Occupency Status</label>
+            <select class="dialogue" name="statut" id="statut">
+                <option value="" selected>Choissez votre statut</option>
+                <option value="owner">Home owner</option>
+                <option value="tenant">Tenant</option>
+                <option value="living">Living with parents</option>
+                <option value="others">Others</option>
+            </select>
+
+
+        </div>
+
+
+        <div class="ad">
+
+            <label class="police" for="statut">Home Type</label>
+            <select class="dialogue" name="statut" id="statut">
+                <option value="" selected>Choissez votre type de bien</option>
+                <option value="duplex">Duplex</option>
+                <option value="appartment">Appartement</option>
+                <option value="Maison">Maison</option>
+                <option value="others">Others</option>
+            </select>
+
+
+        </div>
+
+
+       
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    </form>
+    
+</body>
+</html>

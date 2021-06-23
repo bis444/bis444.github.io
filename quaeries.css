@@ -1,0 +1,63 @@
+h1 { 
+
+
+    color: blue;
+}
+
+
+
+.navbar{
+
+    display: flex;
+    justify-content: flex-end;
+
+}
+.navbar li{
+
+    margin: 10px;
+    list-style-type: none;
+}
+.articles {
+    display: flex;
+}
+
+.articles div {
+    width: calc(100%/3.0);
+    height: 200px;
+    text-align: center;
+    border-radius: 5dpx;
+   
+
+
+}
+.article1{
+    background-color: blue;
+}
+.article2{
+    background-color: rgb(47, 47, 110);
+}
+.article3{
+    background-color: rgb(70, 70, 88);
+}
+
+
+
+@media screen and (max-width: 685px)     {
+    h1{
+
+        color: green ; 
+
+
+    } 
+    .navbar {
+        display: block ;
+    }
+
+    .articles {
+        display: block;
+        
+    }
+    .articles div {
+        width: 100%;
+    }
+}
