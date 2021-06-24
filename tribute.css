@@ -136,12 +136,15 @@ footer{
 @media screen and (max-width: 685px) {
     
     
-*{
-    max-width: 100%;
-    max-height: 100%;
-}
+
     
     body {
-        position: relative ; }
+        position: relative ;
+        min-width: 1000px;
+        min-height : auto ; 
+        
+        
+        
+                            }
     
 }
