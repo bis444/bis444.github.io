@@ -1,0 +1,243 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background: url(https://wallpapers.justgeek.fr/web/wallpapers/terre-nature-155983853470/1280x720.png) ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: fixed;
+   
+    
+    
+   
+
+    
+}
+.type{
+
+    display: flex;
+    height: 85vh;
+
+}
+
+img{
+    
+    height: 38vh;
+    width: 20vw;
+    margin: 2vh;
+    border-radius: 10px;
+}
+
+header{
+    text-align: center;
+    background-color: rgba(254, 254, 255, 0.479);
+    height: 4vh;
+    margin: 2vh  10vw;
+    border-radius: 15px;
+    padding: 1vh 2vw;
+}
+
+
+
+
+main{
+   
+    margin: 2vh 2vw;
+    width: 80%;
+    
+    background-color: #12862900;
+    border-radius: 15px;
+    padding: 2vh 2vw;
+    padding-top: 20px;
+
+    display: block;
+    justify-content: center ; 
+    flex-direction: column;
+    align-items: center;
+    overflow-y: auto;
+    
+   
+    
+}
+
+
+
+aside{
+    
+    
+    
+    
+    margin: 2vh 2vw;
+    margin-left: auto;
+
+    background-color: #ffffff6b;    
+    width: 20%;
+    height: auto;
+    border-radius: 15px;
+    color: rgb(0, 0, 0);
+   
+
+
+}
+
+
+.center {
+    
+    
+    
+    margin-bottom: 5vh;
+
+    display: flex ; 
+    flex-direction: column;
+    align-items: center;
+    
+    
+    background-color: rgba(139, 138, 135, 0.774);
+    border-radius: 15px;
+    
+
+}
+h1{
+    font-size: 20px;
+font-style: oblique;
+font-weight: 5-600;
+}
+p{
+    margin: 10px;
+}
+
+.iframe{
+
+    border-radius: 10px;
+}
+
+h1{
+    text-align: center;
+    text-decoration: underline;
+    font-style: italic;
+    padding-bottom: 50px;
+    
+}
+
+
+footer{
+
+    
+
+        background-color: #000000b0;
+        height: 1vh;
+        margin: 20px;
+        margin-left: 700px;
+        margin-right: 700px;
+        margin-bottom: 5px;
+        border-radius: 15px;
+        padding: 10px;
+        align-items: center;
+        color: rgb(255, 255, 255);
+
+}
+@media all and (max-width: 885px)  {
+
+
+
+    header{
+        padding: 3vh 3vw;
+
+
+
+    }
+
+
+
+  body{
+     width: 100vw;
+     background: url(https://wallpapers.justgeek.fr/web/wallpapers/terre-nature-155983853470/1280x720.png) ;
+     background-repeat: no-repeat;
+     background-size: cover;
+     position: fixed;
+     
+
+   
+     
+
+
+
+     
+       
+        
+       
+    
+
+
+
+  }
+  
+  main{
+        float: left;
+        width: 65%;
+        height: auto;
+        margin-bottom: 5vh;
+
+
+
+  }
+  
+
+  aside{
+
+      float: right;
+      width: 35% ;
+      overflow-y: auto;
+      
+
+
+
+
+
+
+
+
+  }
+
+ aside p{
+
+    
+    padding: 0.5vw ;
+    margin: 1vh 1vw ;
+
+ }
+
+
+
+
+
+iframe{
+
+    height:auto;
+    width: auto;
+    max-height: 30vh;
+
+
+
+}
+
+img{
+    
+    height:auto;
+    width: auto;
+    max-height: 30vh;
+}
+
+
+
+.center{
+    padding: 2vw;
+
+
+
+}
+
+
+}
+
