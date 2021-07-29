@@ -1,0 +1,261 @@
+*{  
+    font-family: 'Gowun Batang', serif;
+    font-family: 'Quicksand', sans-serif;
+    font-family: 'Raleway', sans-serif;
+    font-family: 'Titillium Web', sans-serif;
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    background-color: #f0fafa;
+    
+    
+}
+img{
+    
+    height: 38vh;
+    width: auto;
+    
+    
+    border-radius: 10px;
+}
+
+
+
+header{
+    margin-top: 1vh;
+    height: 20vh;
+
+}
+
+.titre{
+    
+    font-size: 28px;
+    text-align: center;
+    font-style: italic;
+    
+    
+    
+    box-shadow: 1px 1px 8px 1px #49bbbc;
+    margin-right: 600px;
+    margin-left: 600px;
+    padding-bottom: 1vh;
+    padding-top: 1vh;
+    
+
+}
+
+.introduction{
+    font-weight: 550;
+    line-height: 1.8em;
+    font-style: italic;
+    background-color: #49bbbc  ;
+    text-align: center;
+    margin-top: 2vh;
+    margin-left: 2vw ; 
+    margin-right: 2vw;
+    padding: 2vh;
+    border-radius: 5px;
+    font-size: 18px;
+   
+    
+   
+    
+
+
+
+}
+
+.soustitre{
+    margin-top: 1vh;
+    text-align: center;
+    font-size: 25px;
+    margin-bottom: 1vh;
+}
+
+
+.all{
+    margin-top: 6vh;
+    display: flex;
+    height: 75vh;
+
+}
+
+
+
+
+
+main{
+    
+    border-radius: 15px;
+    padding: 2vh 2vw;
+    padding-top: 20px;
+    margin: 2vh 2vw;
+    width: 70%;
+    
+    display: block;
+    justify-content: center ; 
+    flex-direction: column;
+    align-items: center;
+    overflow-y: auto;
+    background-color: #c3e9e9;
+    
+
+
+
+}
+
+.center{
+    line-height: 1.5em;
+    text-align: center;
+
+    background-color: #f0fafa;
+    border-radius: 5px;
+    
+    padding: 2vw;
+    padding-bottom: 1.5vh;
+    padding-top: 2vh;
+    margin-bottom: 2vh;
+}
+
+.centeraside{
+    margin-left: 2vw;
+    padding-top: 2vh;
+
+}
+
+@keyframes coding {
+    from {background-color: rgba(255, 255, 255, 0.377); color: black;}
+    to {background-color: rgb(0, 0, 0); color: rgb(17, 184, 12);}
+}
+  
+
+
+aside{ 
+    
+   width: 30%;
+   margin: 2vh 2vw;
+   margin-left: auto;
+
+     
+   
+   height: auto;
+   border-radius: 15px;
+   color: rgb(0, 0, 0);
+   animation-name: coding; 
+   animation-duration: 10s;
+   animation-fill-mode: forwards;
+   animation-delay: 5s;
+}
+
+
+
+
+
+
+.bouton{
+    text-align: center;
+    
+    background-color: rgba(255, 255, 255, 0.534);
+    color: rgb(38, 54, 143);
+    margin-bottom: 1vh;
+    border-radius: 10%;
+    border: 1px solid black ;
+    padding: 5px;
+    
+}
+
+.bouton:hover{
+    background-color: green;
+    color: whitesmoke;
+}
+
+.mesphotos{
+        display: block;
+     margin-left: auto;
+     margin-right: auto;
+     margin-bottom: 2vh;
+     width: 50%;
+     height: auto;
+}
+
+
+li{
+    margin: 2vh;
+    
+}
+
+
+
+
+
+@media all and (max-width: 885px)  {
+
+
+.all{
+
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: auto;
+    align-items: center;
+   
+   
+}
+header{
+    
+    
+    height: auto;
+   
+    align-items: center;
+}
+
+.titre{
+   box-shadow: none;
+   text-align: center;
+   margin: 1vw;
+  
+}
+
+main{
+    width: 100%;
+    height: auto;
+    margin-left: 2vw;
+    margin-right: 2vw;
+    padding:1vw;
+    
+}
+
+
+.youtube{
+    width: 80%;
+    height: auto;
+}
+
+aside{
+    display: block;
+    margin-left: 1vw;
+    margin-right: 1vw;
+    
+    height: auto;
+    width: auto;
+
+}
+
+
+.center{
+    margin: 1vw;
+    margin-bottom: 5vh;
+    
+}
+
+
+   
+
+
+
+  
+
+
+}
