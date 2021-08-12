@@ -158,3 +158,34 @@ body{background-color: rgb(253, 255, 245);}
 
 }
 
+
+@media  screen and (max-width : 1000px ) {
+
+
+        *{
+            margin: 0;
+        }
+
+
+    
+
+        .calculator{
+            display: flex;
+            flex-direction: column;
+            width: 100%;
+            height: auto;
+            align-items: center;
+            margin-top : 5vh
+            
+            
+        }
+
+
+       #newresult{
+          margin-bottom: 2vh;
+      }
+
+     }
+
+
+
